@@ -1,0 +1,14 @@
+{
+  "name": "chode",
+  "version": "1.0.0",
+  "description": "chat app with a twist",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Cameron",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
