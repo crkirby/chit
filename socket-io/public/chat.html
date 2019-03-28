@@ -7,10 +7,13 @@
 </head>
 <body>
     <h1>Chat App</h1>
+    <sidebar id="userList">
+        Users
+    </sidebar>
     <textarea name="messages" wrap="soft" id="messageList" cols="100" readonly rows="30"></textarea>
     <form>
         <label for="message">Type a message</label>
-        <input type="text" name="message" id="inputMessage">
+        <input autocomplete="off" type="text" name="message" id="inputMessage">
         <button id="sendBtn" type="submit">Send</button>
     </form>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>

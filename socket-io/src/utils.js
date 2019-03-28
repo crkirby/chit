@@ -1,5 +1,6 @@
-const generateMessage = (message) => {
+const generateMessage = (username, message) => {
     return {
+        username,
         message,
         date: new Date()
     }
